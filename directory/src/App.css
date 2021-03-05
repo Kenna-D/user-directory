@@ -1,0 +1,96 @@
+/* .App {
+  margin: 0;
+  text-align: left;
+  background-color: grey;
+  height: 98vh;
+  
+} */
+
+.header {
+  position: relative;
+  background-color: rgb(0, 195, 255);
+  text-align: start;
+  width: 100vw;
+  height: 55px;
+  padding-top: 27px;
+  padding-left: 40px;
+  font-size: 20px;
+  /* align-items center; */
+  /* justify-content: center; */
+ }
+
+/* .profile{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  
+}
+.indexCard{
+  position: relative;
+  padding-left: 100px;
+  height: 500px;
+  width: 500px ;
+
+} */ 
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(85, 84, 84);
+}
+
+h1 {
+  color: rgb(85, 84, 84);
+}
+
+.container {
+  position: relative;
+  height: 80vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+
+button {
+  background-color: rgb(0, 195, 255);
+  border: white;
+  border-radius: 30px;
+  color: white;
+  width: 100px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  height: 30px;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-number {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+
+}
+
+ol {
+  width: 150px;
+}
